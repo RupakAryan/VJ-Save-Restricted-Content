@@ -14,7 +14,7 @@ ADMINS = int(os.environ.get("ADMINS", "5776977809"))
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://<rupak>:<aryan>@cluster0.cbyim0l.mongodb.net/?appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://rupak:yHjYzKG7q_E@cluster0.cbyim0l.mongodb.net/rupak?retryWrites=true&w=majority") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = os.environ.get("DB_NAME", "rupak")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
